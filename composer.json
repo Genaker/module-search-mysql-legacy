@@ -8,7 +8,7 @@
         "legacy"
     ],
     "type": "magento2-module",
-    "version": "3.3.3",
+    "version": "3.3.4",
     "license": "OSL-3.0",
     "require": {
         "magento/framework": ">=102.0",
