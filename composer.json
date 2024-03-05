@@ -1,6 +1,7 @@
 {
     "name": "genaker/module-search-mysql",
     "description": "Legacy mysql search for magento 2.4",
+    "minimum-stability": "dev",
     "keywords": [
         "mysql",
         "search",
