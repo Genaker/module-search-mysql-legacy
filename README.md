@@ -31,11 +31,12 @@ There are several ways to install extension for clients:
 
 ```bash
 cd <magento_root>
-composer config repositories.swissup composer https://docs.swissuplabs.com/packages/
-composer require swissup/module-search-mysql-legacy --prefer-source --ignore-platform-reqs
-bin/magento module:enable Swissup_SearchMysqlLegacy Swissup_Core
+ 
+composer require genaker/module-search-mysql
 bin/magento setup:upgrade --safe-mode=1
 bin/magento setup:di:compile
+bin/magento config:show catalog/search/engine
+bin/magento config:set catalog/search/engine 'lmysql'
 bin/magento indexer:reindex catalogsearch_fulltext
 ```
 
