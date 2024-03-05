@@ -1,5 +1,5 @@
 {
-    "name": "swissup/module-search-mysql-legacy",
+    "name": "mage/module-search-mysql",
     "description": "Legacy mysql search for magento 2.4",
     "keywords": [
         "mysql",
